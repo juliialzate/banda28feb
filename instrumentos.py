@@ -6,27 +6,85 @@ class Instrumento:
     def tocar(self):
         pass 
 
+    def mostrar(self):
+        return "instrumento " + (str(type(self)).split(".")[-1][:-2])
+
 class Guitarra(Instrumento):
 
     def afinar (self):
-        print("Afinano guitarra")
+        return "Afinano guitarra"
 
     def tocar (self):
-        print("Tocando guitarra")
+        return "Tocando guitarra"
 
 class Guacharaca(Instrumento):
 
     def afinar (self):
-        print("Afinano guacharaca")
+        return "Afinano guacharaca"
 
     def tocar (self):
-        print("Tocando  guacharaca")
+        return "Tocando  guacharaca"
 
 class Tambor(Instrumento):
 
     def afinar (self):
-        print("Afinano tambor")
+        return "Afinano tambor"
 
     def tocar (self):
-        print("Tocando tambor")
+        return "Tocando tambor"
+
+class Flauta(Instrumento):
+
+    def afinar (self):
+        print("Afinano flauta")
+
+    def tocar (self):
+        print("Tocando flauta")
+
+class Ukelele(Instrumento):
+
+    def afinar (self):
+        print("Afinano Ukelele")
+
+    def tocar (self):
+        print("Tocando Ukelele")
+
+class Bajo(Instrumento):
+
+    def afinar (self):
+        print("Afinano bajo")
+
+    def tocar (self):
+        print("Tocando bajo")
+        
+class Saxo(Instrumento):
+
+    def afinar (self):
+        print("Afinano saxo")
+
+    def tocar (self):
+        print("Tocando saxo")
+
+class Bateria(Instrumento):
+
+    def afinar (self):
+        print("Afinano bateria")
+
+    def tocar (self):
+        print("Tocando bateria")
+
+class Arpa(Instrumento):
+
+    def afinar (self):
+        print("Afinano arpa")
+
+    def tocar (self):
+        print("Tocando arpa")
+class Acordeon(Instrumento):
+
+    def afinar (self):
+        print("Afinano acordeon")
+
+    def tocar (self):
+        print("Tocando acordeon")
         
