@@ -19,4 +19,4 @@ class Musico:
 
 
 
-#buscar imagenes de 32x32 para construir un asteroid
+#buscar imagenes de 32x32 para construir un asteroid png
