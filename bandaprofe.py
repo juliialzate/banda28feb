@@ -1,5 +1,5 @@
 from musicos import *
-from random import choice, randint
+from random import choice
 
 class Banda: 
 
@@ -15,11 +15,11 @@ class Banda:
     
     def afinar_banda(self):
         for m in self.musicos:
-            print(m.tocar_instrumento)
+            print(m.tocar_instrumento())
     
     def tocar_banda(self):
         for m in self.musicos:
-            print(m.afinar_instrumento)
+            print(m.afinar_instrumento())
 
     def mostrar_banda(self):
         for m in self.musicos:

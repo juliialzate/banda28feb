@@ -10,8 +10,13 @@ class Musico:
         self.instrumento = instrumento 
     
     def afinar_instrumento(self):
-        self.instrumento.afinar()
+        return self.instrumento.afinar()
     
     def tocar_instrumento(self):
-        self.instrumento.tocar()
+        return self.instrumento.tocar()
 
+
+
+
+
+#buscar imagenes de 32x32 para construir un asteroid
